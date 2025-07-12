@@ -7,7 +7,11 @@ export const Users: CollectionConfig = {
   },
   auth: true,
   fields: [
-
-
+    {
+      name: 'email',
+      type: 'email',
+      required: true,
+      unique: true,
+    },
   ],
 }
