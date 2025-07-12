@@ -3,7 +3,7 @@ import { Navbar } from "./navbar";
 
 interface Props {
   children: React.ReactNode;
-};
+}
 
 
 const Layout = ({ children }: Props) => {
@@ -14,8 +14,7 @@ const Layout = ({ children }: Props) => {
         {children}
       </div>
       <Footer />
-    </div>
-    
+    </div> 
   );
 }
 export default Layout;
